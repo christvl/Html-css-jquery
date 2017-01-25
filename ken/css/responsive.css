@@ -1,0 +1,469 @@
+@media screen and (min-width: 360px){
+    span{
+    position: relative;
+    left:300px;
+    top:10px;
+    }
+    /******************************
+    INDEX PAGE STYLING
+    ***************************/
+    /******************************
+    HEADER STYLING
+    *****************************/
+    header{
+        min-height: 650px;
+    }
+}
+@media screen and (min-width: 480px) {
+    /******************************
+    INDEX PAGE STYLING
+    ***************************/
+    span{
+    position: relative;
+    left:420px;
+    top:20px;
+    }
+    /******************************
+    HEADER STYLING
+    *****************************/
+    header{
+        min-height: 700px;
+    }
+    header h1{
+        font-size: 3.0em;
+        position: relative;
+        bottom: 30px;
+    }
+    header p{
+        font-size: 1.50em;
+        position: relative;
+        bottom: 50px;
+    }
+    /***************************
+    ABOUT INFO STYLING
+    ******************************/
+    .ken{
+        width:45%;
+        float:left;
+        position: relative;
+        top:12px;
+    }
+    #aboutinfo{
+        width:50%;
+        float:right;
+        position:relative;
+        right:5px;
+    }
+    /******************************
+CONTACT PAGE STYLING 
+****************************/
+    #contact form {
+       width:90%;
+       position: relative;
+       left:40px;
+    }
+    #contact .submit {
+        width:30%;
+        margin-top: 10px;
+    }
+}
+/********** 660px ********/
+@media screen and (min-width: 660px) {
+    /******************************
+    INDEX PAGE STYLING
+    ***************************/
+    span{
+    position: relative;
+    left:600px;
+    top:30px;
+    }
+    /******************************
+    HEADER STYLING
+    *****************************/
+    header{
+        min-height: 740px;
+    }
+    header h1{
+        font-size: 4.0em;
+    }
+    header p{
+        position: relative;
+        bottom: 60px;
+    }
+    /***************************
+    ABOUT INFO STYLING
+    ******************************/
+    .ken{
+        width:40%;
+        float:left;
+        position: relative;
+        left:20px;
+    }
+    #aboutinfo{
+        width:50%;
+        position:relative;
+        right:20px;
+    }
+     /******************************
+CONTACT PAGE STYLING 
+****************************/
+    #contact form {
+       width:80%;
+       position: relative;
+       left:90px;
+    }
+    #contact .submit {
+        width:20%;
+        margin-top: 10px;
+    }
+    /**********************************
+    GALLERY PAGE STYLING
+    ********************************/ 
+    #imageGallery li{
+        margin:10px;
+        position: relative;
+        left:30px;
+    }
+}
+@media screen and (min-width: 768px){
+    /******************************
+    INDEX PAGE STYLING
+    ***************************/
+    span{
+    position: relative;
+    left:708px;
+    top:30px;
+    }
+    /******************************
+    HEADER STYLING
+    *****************************/
+    header{
+        min-height: 900px;
+    }
+    header h1{
+        font-size: 5.0em;
+        position:relative;
+        top:20px;
+    }
+    header p{
+        font-size: 2.0em;
+        position: relative;
+        bottom: 40px;
+    }
+     .ken{
+        width:30%;
+        position: relative;
+        left:50px;  
+    }
+    #aboutinfo{
+        width:50%;
+        position:relative;
+        right:70px;
+    }
+     /***************************
+    ABOUT INFO STYLING
+    ******************************/
+    
+    /**********************************
+    GALLERY PAGE STYLING
+    ********************************/ 
+    #imageGallery li{
+        width: 28.3333%;
+        position: relative;
+        right:12px;
+    }
+/******************************
+CONTACT PAGE STYLING 
+****************************/
+    #contact form {
+       width:60%;
+       position: relative;
+       left:180px;
+    }
+}
+@media screen and (min-width: 800px){
+    span{
+    position: relative;
+    left:740px;
+    top:30px;
+    }
+    /***************************
+    ABOUT INFO STYLING
+    ******************************/
+    .ken{
+        width:29%;
+    }
+    #aboutinfo{
+        width:50%;
+        float:right;
+        position:relative;
+        right:90px;
+    }
+    /**********************************
+    GALLERY PAGE STYLING
+    ********************************/ 
+    #imageGallery li{
+        margin:10px;
+        position: relative;
+        left:30px;
+    }
+}
+@media screen and (min-width: 980px){
+     /******************************
+    INDEX PAGE STYLING
+    ***************************/
+    span{
+    position: relative;
+    left:900px;
+    top:40px;
+    }
+     /***************************
+    ABOUT INFO STYLING
+    ******************************/
+    .ken{
+        width:22%;
+        position: relative;
+        left:120px;
+    }
+    #aboutinfo{
+        width:50%;
+        float:right;
+        position:relative;
+        right:130px;
+    }
+    /******************************
+    CONTACT PAGE STYLING 
+    ****************************/
+    #contact form {
+       width:50%;
+       position: relative;
+       left:270px;
+    }
+    /**********************************
+    GALLERY PAGE STYLING
+    ********************************/ 
+    #imageGallery li{
+        margin:10px;
+        position: relative;
+        left:60px;
+    }
+}
+@media screen and (min-width: 1280px){
+     /******************************
+    INDEX PAGE STYLING
+    ***************************/
+    span{
+    position: relative;
+    left:1200px;
+    }
+    #overlay{
+      min-width:100%;
+      min-height:100%;
+      position: absolute;
+      top:0;
+      left:0;
+      display:none;
+      text-align:center;
+    }
+    #overlay img{
+      width:50%;
+      margin-top:5%;
+      border: 5px solid white;
+    }
+    /***************************
+    ABOUT INFO STYLING
+    ******************************/
+    .ken{
+        width:17%;
+        position: relative;
+        left:340px;
+    }
+    #aboutinfo{
+        width:50%;
+        float:right;
+        position:relative;
+        right:60px;
+    }
+    #aboutinfo p{
+       font-size: 0.9em;
+        width:80%;
+    }
+    /******************************
+    CONTACT PAGE STYLING 
+    ****************************/
+    #contact form {
+       width:40%;
+       position: relative;
+       left:410px;
+    }
+    /**********************************
+    GALLERY PAGE STYLING
+    ********************************/ 
+    #imageGallery li{
+        margin:10px;
+        position: relative;
+        left:60px;
+    }
+}
+@media screen and (min-width: 1400px){
+     /******************************
+    INDEX PAGE STYLING
+    ***************************/
+    span{
+    position: relative;
+    left:1300px;
+    top:30px;
+    }
+      /***************************
+    ABOUT INFO STYLING
+    ******************************/
+    .ken{
+        width:16%;
+        position: relative;
+        left:380px;
+    }
+    /**********************************
+    GALLERY PAGE STYLING
+    ********************************/ 
+    #imageGallery li{
+        margin:10px;
+        position: relative;
+        left:70px;
+    }
+    /******************************
+    CONTACT PAGE STYLING 
+    ****************************/
+    #contact form {
+       width:35%;
+       position: relative;
+       left:480px;
+    }
+}
+@media screen and (min-width: 1440px){
+      /***************************
+    ABOUT INFO STYLING
+    ******************************/
+    .ken{
+        width:19%;
+        position: relative;
+        left:360px;
+    }
+    /**********************************
+    GALLERY PAGE STYLING
+    ********************************/ 
+    #imageGallery li{
+        margin:10px;
+        position: relative;
+        left:70px;
+    }
+    /******************************
+    CONTACT PAGE STYLING 
+    ****************************/
+    #contact form {
+       position: relative;
+       left:500px;
+    }
+    
+}
+@media screen and (min-width: 1600px){
+     /******************************
+    INDEX PAGE STYLING
+    ***************************/
+    span{
+    position: relative;
+    left:1400px;
+    top:30px;
+    }
+       /***************************
+    ABOUT INFO STYLING
+    ******************************/
+    .ken{
+        width:12%;
+        position: relative;
+        left:510px;
+    }
+    /******************************
+    CONTACT PAGE STYLING 
+    ****************************/
+    #contact form {
+       width:30%;
+       position: relative;
+       left:580px;
+    }
+    #imageGallery li{
+        width:20%;
+        margin:15px;
+        position: relative;
+        left:80px;
+    }
+    
+}
+@media screen and (min-width: 1680px){
+     /******************************
+    INDEX PAGE STYLING
+    ***************************/
+    span{
+    position: relative;
+    left:1450px;
+    }
+       /***************************
+    ABOUT INFO STYLING
+    ******************************/
+    .ken{
+        width:11%;
+        position: relative;
+        left:570px;
+    }
+    /******************************
+    CONTACT PAGE STYLING 
+    ****************************/
+    #contact form {
+       width:30%;
+       position: relative;
+       left:600px;
+    }
+    #imageGallery li{
+        width:20%;
+        margin:15px;
+        position: relative;
+        left:80px;
+    }
+    
+}
+@media screen and (min-width: 1920px){
+    /******************************
+    INDEX PAGE STYLING
+    ***************************/
+    span{
+    position: relative;
+    left:1600px;
+    }
+     /***************************
+    ABOUT INFO STYLING
+    ******************************/
+    .ken{
+        width:12%;
+        position: relative;
+        left:640px;
+    }
+     #aboutinfo p{
+        width:50%;
+    }
+     /**********************************
+    GALLERY PAGE STYLING
+    ********************************/ 
+    #imageGallery li{
+        width:20%;
+        margin:15px;
+        position: relative;
+        left:80px;
+    }
+     /******************************
+    CONTACT PAGE STYLING 
+    ****************************/
+    #contact form {
+       width:30%;
+       position: relative;
+       left:730px;
+    }
+}

@@ -1,0 +1,276 @@
+*{
+    box-sizing: border-box;
+}
+/************************
+Clearfix
+************************/
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+/***************** 
+CUSTOM CSS FONT
+****************/
+@font-face{
+    font-family:pp;
+    src: url(../css/pp.ttf);
+}
+/******************* 
+GENERAL CSS 
+***************/
+html,body
+{
+    background-color: #FFF5EE;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+img{
+    max-width:100%;
+}
+/**************************
+INDEX PAGE STYLING
+*****************************/
+/*******  
+MY PUSH ASIDE OVERLAY NAVBAR 
+*************/
+span{
+    font-size:30px;
+    cursor:pointer;
+    position: relative;
+    left:260px;
+    top:10px;
+    color:#FFF5EE;
+}
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+/************** 
+Header Styling 
+*********************/
+header{
+    background: url(../images/mainpic.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 480px;
+    padding-top: 5px;
+}
+.logoText{
+    position: relative;
+    top:50px;
+}
+header h1{
+    font-family: 'Droid Serif', serif;
+    font-size:2.7em;
+    text-align: center;
+    color:white;
+    text-shadow: 3px 3px black;
+    position: relative;
+    bottom:10px;
+}
+header p{
+    font-family: pp;
+    font-size: 1.50em;
+    text-align: center;
+    position: relative;
+    bottom:30px;
+    color:white;
+    text-shadow: 3px 3px black;
+}
+/********************** 
+ABOUT INFO STYLING 
+**************/
+.ken{
+    margin-top: 10px;
+    width:95%;
+    position: relative;
+    left:7px;
+}
+#aboutinfo{
+    line-height: 18px;
+    max-width:95%;
+    margin-left: 10px;
+    color:#333333;
+}
+
+#aboutinfo h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.0625em;
+    font-weight: 600;
+}
+#aboutinfo p{
+    font-family: 'Droid Serif', serif;
+    font-size: 0.8em;
+}
+#aboutinfo ul{
+    list-style-type: none;
+    position: relative;
+    right: 50px;
+}
+#aboutinfo li{
+    display: inline-block;
+    padding: 10px;
+}
+#aboutinfo a{
+     font-family: 'Droid Serif', serif;
+     color:#333333;
+     font-size: 1.2em;
+     text-decoration: none;
+}
+#aboutinfo a:hover{
+    color:red;
+    font-weight: bold;
+}
+footer{
+    height:100px;
+    background-color:#333333;
+    
+}
+footer p{
+    font-size: 0.8em;
+    text-align: center;
+    position: relative;
+    top:50px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+/**********************************
+GALLERY PAGE STYLING
+********************************/ 
+#gallery h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+#imageGallery{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left:15px;
+}
+#imageGalery ul{
+     list-style: none;
+}
+#imageGallery li{
+    margin: 2.5%;
+    float: left;
+    width: 40%;
+    display: inline-block;
+}
+#imageGallery a{
+    text-decoration: none;
+}
+#overlay{
+  background:rgba(0,0,0,0.7);
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+#overlay img{
+  width:90%;
+  margin-top: 20%;
+  border: 5px solid white;
+}
+#overlay p{
+  color:white;
+}
+/******************************
+CONTACT PAGE STYLING 
+****************************/
+#contact h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+#contact label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+#contact form {
+    width:100%;
+    position: relative;
+    left:15px;
+     font-family: 'Roboto', sans-serif;
+}
+#contact input, textarea {
+	width:90%;
+	background:lightgrey;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+#contact textarea {
+	height:200px;
+}
+#contact input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+#contact .submit {
+    width:40%;
+    background-color: #333333;
+    color:white;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+	#contact .submit:hover {
+	    opacity:.9;
+	}
